@@ -1,85 +1,156 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
-#main-header{
-    background-image: url("../images/banner/banner3.png");
-    text-align: center;
-    height: 100vh;    
+#main-header {
+  background-image: url("../images/banner/banner3.png");
+  text-align: center;
+  height: 90vh;
 }
-.header-container{
-    padding: 216px 230px 262px 876px;
+.header-container {
+  padding: 216px 230px 262px 876px;
 }
-.header-container h2{
-    color: #fff;
-    font-weight: bold;
-    width: 525px;
-    margin-bottom: 10px;
+.header-container h2 {
+  color: #fff;
+  text-align: right;
+  font-size: 65px;
+  font-weight: 700;
 }
-.header-container p{
-    color: #fff;
-    margin-bottom: 10px;
+.header-container p {
+  color: #fff;
+  margin-bottom: 10px;
 }
-.header-container button{
-    background-color: #fff;
-    padding: ;
-    width: 100px;
-    height: 35px;
-    border-radius: 5px;
-    background: #FFF;    
+.header-container button {
+  background: #fff;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 5px;
+  background: #fff;
+  color: #005fac;
+  text-align: right;
+  font-size: 20px;
+  font-weight: 600;
 }
 /* about section start */
 
-.about-container{
-    display: flex;
-    justify-content: space-around;
-    gap: 150px;
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 150px;
 }
-.about-text{
-    margin-top: 370px;
-    margin-left: 134px;
-    margin-right: 200px;
-
+.about-text h2 {
+  color:  #151414;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
 }
-.about-img{
-    width: 451px;
-    height: 898px;
-
+.about-text p{
+    color:#444343;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
 }
-#about-secton{
-    margin-top:140px;
-     
+.about-ul{
+    color: #444343;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+margin-top: 20px;
+}
+.about-img {
+}
+#about-secton {
+  margin-top: 140px;
 }
 
 /* about section end */
 
 /* plan section start */
-#planSection{
-    width: 1200px;
-    margin: 0 auto;
+#planSection {
+  width: 1200px;
+  margin: 0 auto;
 }
-#planSection h2{
-    text-align: center;
+#planSection h2 {
+  text-align: center;
 }
-.plan-container{
-    display: flex;
-     margin: 0 auto;
-    justify-content: space-around;
+.plan-container {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
 }
 /* plan section end */
 
 /* banner section start */
-.buttonBanner{
-    background-color: #fff;
-    padding: ;
-    width: 100px;
-    height: 35px;
-    border-radius: 5px;
-    background: #FFF; 
+#bannerSection {
+  align-items: center;
+  margin: 50px 0;
 }
-#bannerSection{
-    background-image: url('../images/gradient3.png');
-    background-repeat: no-repeat;
-    
+.banner-container {
+  background-image: url(/images/watch.png), url(/images/gradient2.png);
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  width: 1000px;
+  height: 300px;
+  margin: 0 auto;
 }
+.banner-container h3 {
+  text-align: start;
+  margin-left: 30px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+}
+.banner-container button {
+  border-radius: 5px;
+  background: #fff;
+  padding: 15px 25px;
+  color: #005fac;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 30px;
+}
+
 /* banner section end */
+footer {
+  display: flex;
+  justify-content: center;
+  background: #151414;
+  padding-bottom: 30px;
+}
+.future h3,
+p {
+  color: #fff;
+  margin-bottom: 10px;
+}
+.future {
+  margin-left: 150px;
+}
+.future {
+  width: 70%;
+  margin-top: 50px;
+}
+.subscribe {
+  width: 30%;
+  margin-top: 50px;
+}
+.subscribe h3 {
+  color: white;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.subscribe form input {
+  width: 300px;
+  height: 35px;
+  border-radius: 8px;
+}
+.subscribe button {
+  border-radius: 8px;
+  background: #005fac;
+  padding: 15px 25px;
+  margin-top: 10px;
+  color: white;
+}
